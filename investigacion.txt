@@ -1,0 +1,40 @@
+Investigacion
+1. CORS (Cross-Origin Resource Sharing)
+¿Qué es?
+Es un mecanismo que permite o restringe solicitudes entre diferentes dominios.
+
+¿Para qué sirve?
+Permite que una página web pueda hacer peticiones a un servidor que está en otro dominio diferente (por seguridad, esto está bloqueado por defecto en los navegadores).
+
+Ejemplo típico:
+Una app en React en localhost:3000 quiere acceder a una API en localhost:5000.
+
+2. Express
+¿Qué es?
+Un framework minimalista para Node.js.
+
+¿Para qué sirve?
+Facilita la creación de servidores web y APIs de manera sencilla y rápida.
+
+Ventajas:
+Simple, flexible, con muchas extensiones disponibles.
+
+3. Mongoose
+¿Qué es?
+Una biblioteca de Node.js para trabajar con MongoDB.
+
+¿Para qué sirve?
+Permite definir esquemas (modelos de datos) y facilita operaciones como guardar, buscar, actualizar y eliminar datos en MongoDB.
+
+Ventaja:
+Hace más fácil trabajar con MongoDB usando JavaScript/Node.
+
+4. Dotenv
+¿Qué es?
+Un paquete de Node.js para cargar variables de entorno desde un archivo .env.
+
+¿Para qué sirve?
+Protege información sensible (como contraseñas, claves de API o URLs) al no ponerlas directamente en el código.
+
+Ejemplo:
+En .env: DB_URL=mongodb://localhost/mydb
